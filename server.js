@@ -8,7 +8,7 @@ app.get('/', function (req, res) {
     var retObj = {
         ipaddress: ip,
         language: lang,
-        // software: software
+        software: software
     }
     res.send(retObj)
 })
